@@ -13,6 +13,12 @@
 		1CC5F598271EFFA5007C4A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F583271EFFA3007C4A0A /* ContentView.swift */; };
 		1CC5F599271EFFA5007C4A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC5F584271EFFA5007C4A0A /* Assets.xcassets */; };
 		1CC5F59A271EFFA5007C4A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC5F584271EFFA5007C4A0A /* Assets.xcassets */; };
+		1CC5F5A8271F0038007C4A0A /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F5A7271F0038007C4A0A /* Intro.swift */; };
+		1CC5F5A9271F0038007C4A0A /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F5A7271F0038007C4A0A /* Intro.swift */; };
+		1CC5F5AC271F0066007C4A0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F5AB271F0066007C4A0A /* Home.swift */; };
+		1CC5F5AD271F0066007C4A0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F5AB271F0066007C4A0A /* Home.swift */; };
+		1CC5F5AF271F0245007C4A0A /* OffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F5AE271F0245007C4A0A /* OffsetPageTabView.swift */; };
+		1CC5F5B0271F0245007C4A0A /* OffsetPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5F5AE271F0245007C4A0A /* OffsetPageTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,9 @@
 		1CC5F591271EFFA5007C4A0A /* SwiftUI-Animated Indicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Animated Indicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC5F593271EFFA5007C4A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CC5F594271EFFA5007C4A0A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1CC5F5A7271F0038007C4A0A /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		1CC5F5AB271F0066007C4A0A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1CC5F5AE271F0245007C4A0A /* OffsetPageTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetPageTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,8 @@
 		1CC5F581271EFFA3007C4A0A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1CC5F5AA271F005A007C4A0A /* View */,
+				1CC5F5A6271F0019007C4A0A /* Model */,
 				1CC5F582271EFFA3007C4A0A /* SwiftUI_Animated_IndicatorApp.swift */,
 				1CC5F583271EFFA3007C4A0A /* ContentView.swift */,
 				1CC5F584271EFFA5007C4A0A /* Assets.xcassets */,
@@ -88,6 +99,23 @@
 				1CC5F594271EFFA5007C4A0A /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		1CC5F5A6271F0019007C4A0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5F5A7271F0038007C4A0A /* Intro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CC5F5AA271F005A007C4A0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5F5AB271F0066007C4A0A /* Home.swift */,
+				1CC5F5AE271F0245007C4A0A /* OffsetPageTabView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +217,9 @@
 			files = (
 				1CC5F597271EFFA5007C4A0A /* ContentView.swift in Sources */,
 				1CC5F595271EFFA5007C4A0A /* SwiftUI_Animated_IndicatorApp.swift in Sources */,
+				1CC5F5AF271F0245007C4A0A /* OffsetPageTabView.swift in Sources */,
+				1CC5F5AC271F0066007C4A0A /* Home.swift in Sources */,
+				1CC5F5A8271F0038007C4A0A /* Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +229,9 @@
 			files = (
 				1CC5F598271EFFA5007C4A0A /* ContentView.swift in Sources */,
 				1CC5F596271EFFA5007C4A0A /* SwiftUI_Animated_IndicatorApp.swift in Sources */,
+				1CC5F5B0271F0245007C4A0A /* OffsetPageTabView.swift in Sources */,
+				1CC5F5AD271F0066007C4A0A /* Home.swift in Sources */,
+				1CC5F5A9271F0038007C4A0A /* Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
